@@ -79,12 +79,12 @@ WSGI_APPLICATION = 'mined.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mined',
-	    'USER': 'minestoned',
-	    'PASSWORD': '1moneyisnoweverythingDAWG!',
-	    'HOST': '104.131.9.68',
-	    'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'minestoned',
+        'USER': 'minestoned',
+        'PASSWORD': 'moneyisnoweverythingdawg',
+        'HOST': '104.131.9.68',
+        'PORT': '',
     }
 }
 
